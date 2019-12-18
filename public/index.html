@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Sansita:900&display=swap&subset=latin-ext"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.css" />
+</head>
+
+<body>
+  <header>
+    <div class="row fluid">
+      <div class="col col-sm-12 col-md-4">
+        LOGO
+      </div>
+      <div class="col col-sm-12 col-md-8 menu">
+        <ul>
+          <li class="current"><a onClick="return moveToSection(0)" href="#">REZERWUJ</a></li>
+          <li><a onClick="return moveToSection(1)" href="#">APARTAMENTY</a></li>
+          <li><a onClick="return moveToSection(2)" href="#">ATRAKCJE</a></li>
+          <li><a onClick="return moveToSection(3)" href="#">UDOGODNIENIA</a></li>
+          <li><a onClick="return moveToSection(4)" href="#">DOJAZD I KONTAKT</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <div id="fullpage">
+    <section class="section fs splash">
+      <div class="slider">
+        <div class="item" style="background-image: url('./images/splash.jpg')"></div>
+        <ul>
+          <li><button class="active">1</button></li>
+          <li><button>2</button></li>
+          <li><button>3</button></li>
+        </ul>
+      </div>
+      <div class="register">
+        <form action="#" method="post">
+          <input type="date" value="2019-12-13" />
+          <input type="date" value="2019-12-20" />
+          <select required>
+            <option value="">apartament</option>
+            <option value="">Azure</option>
+            <option value="">Bałtycka</option>
+            <option value="">Sunny Day</option>
+          </select>
+          <input type="submit" value="Sprawdź dostępność" />
+        </form>
+      </div>
+    </section>
+    <section class="section fs fs--center ">
+      <div class="row">
+        <div class="col">
+          <h2 class="center header">APARTAMENTY</h2>
+        </div>
+      </div>
+
+      <div class="apartamenty">
+
+        <div class="apartament">
+          <img src="./images/apartament-1.jpg" alt="" class="bg" />
+          <div class="name">
+            <span class="price">Od 199 PLN/doba</span>
+            <h3>Azure</h3>
+          </div>
+          <div class="more">
+            <a href="#">Zobacz opis →</a>
+          </div>
+        </div>
+
+        <div class="apartament">
+          <img src="./images/apartament-2.jpg" alt="" class="bg" />
+          <div class="name">
+            <span class="price">Od 199 PLN/doba</span>
+            <h3>Bałtycka</h3>
+          </div>
+          <div class="more">
+            <a href="#">Zobacz opis →</a>
+          </div>
+        </div>
+
+        <div class="apartament">
+          <img src="./images/apartament-3.jpg" alt="" class="bg" />
+          <div class="name">
+            <span class="price">Od 199 PLN/doba</span>
+            <h3>Sunny Day</h3>
+          </div>
+          <div class="more">
+            <a href="#">Zobacz opis →</a>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="section fs">
+      <div class="slider">
+        <div class="item" style="background-image: url('./images/atrakcje-1.jpg')">
+          <div class="layer">
+            <h2>Atrakcje</h2><br />
+            <h3>Latarnia morska</h3><br />
+            <p>Latarnia morska znajduje sięw odległości 2 km od naszego apartamentu i dostępna dostępna jest dla
+              odwiedających ...</p>
+          </div>
+        </div>
+        <ul>
+          <li><button class="active">1</button></li>
+          <li><button>2</button></li>
+          <li><button>3</button></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section fs fs--center">
+      <div class="row">
+        <div class="col">
+          <h2 class="center header">UDOGODNIENIA</h2>
+
+          <div class="facilities">
+            <div class="item">
+              <div class="ball">
+                <img src="images/icons/tv.svg" alt="TV" />
+                Telewizja kablowa
+              </div>
+            </div>
+            <div class="item">
+              <div class="ball">
+                <img src="images/icons/wifi.svg" alt="Wifi" />
+                Internet WiFi
+              </div>
+            </div>
+            <div class="item">
+              <div class="ball">
+                <img src="images/icons/parking.svg" alt="Parking" />
+                Parking
+              </div>
+            </div>
+            <div class="item">
+              <div class="ball">
+                <img src="images/icons/washing-machine.svg" alt="Pralka" />
+                Pralka
+              </div>
+            </div>
+            <div class="item">
+              <div class="ball">
+                <img src="images/icons/stove.svg" alt="Płyta indukcyjna, piekarnik" />
+                Płyta indukcyjna,<br />piekarnik
+              </div>
+            </div>
+            <div class="item">
+              <div class="ball">
+                <img src="images/icons/kettle.svg" alt="Czajnik" />
+                Czajnik, ekspres przelewowy
+              </div>
+            </div>
+            <div class="item">
+              <div class="ball">
+                <img src="images/icons/hair-dryer.svg" alt="Suszarka do włosów" />
+                Szuszarka<br />do włosów
+              </div>
+            </div>
+            <div class="item">
+              <div class="ball">
+                <img src="images/icons/iron-table.svg" alt="Żelazko, deska do prasowania" />
+                Żelazko, deska do prasowania
+              </div>
+            </div>
+
+
+
+
+
+          </div>
+          <div class="row">
+            <div class="col center">
+              <small>Oferta może różnić się w zależności od apartamentu. Prosimy sprawdzić szczegół wybranego
+                apartamentu by poznać pełną gamę oferowanych w nim udogodnień.</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section fs map">
+      <div class="map"></div>
+      <div class="row">
+        <div class="col">
+          <div class="layer">
+            <h3>Sunny Day</h3>
+            <p>
+              ul. Adresowa 12/34<br />
+              12-345 Kołobrzeg
+            </p>
+            <p>
+              tel. 123-456-789<br />
+              <a href="#">info@sunnyday.pl</a>
+            </p>
+
+            <br />
+
+            <h3>Kontakt</h3>
+
+            <form action="#" class="wpcf7">
+              <label>
+                <input type="email" placeholder="Adres e-mail*" />
+              </label>
+              <label>
+                <input type="tel" placeholder="Telefon" />
+              </label>
+              <textarea placeholder="Wiadomość"></textarea>
+              <input type="submit" value="Wyślij zapytanie" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="row">
+      <div class="col col-md-4">
+        &copy; 2019 Sunny Day
+      </div>
+      <div class="col col-md-8 right">
+        <ul>
+          <li>
+            <a href="#">Polityka prywatności</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.js"></script>
+  <script>
+    if (window.innerWidth > 812) {
+      new window.fullpage("#fullpage", {
+        licenseKey: "0D7EC2EF-E1DD4325-82B47610-EF64806F",
+        verticalCentered: false,
+        afterLoad: function (origin, destination, direction) {
+          var index = destination.index;
+          document.querySelector('header li.current').classList.remove('current');
+          document.querySelector('header li:nth-child(' + (index + 1) + ')').classList.add('current');
+        }
+      });
+
+      function moveToSection(index) {
+        window.fullpage_api.moveTo(index + 1);
+        document.querySelector('header li.current').classList.remove('current');
+        document.querySelector('header li:nth-child(' + (index + 1) + ')').classList.add('current');
+      }
+    }
+  </script>
+</body>
+
+</html>
